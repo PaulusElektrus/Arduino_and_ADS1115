@@ -28,7 +28,7 @@ void setup() {
    * ADS1115_RANGE_0512  ->  +/- 512 mV
    * ADS1115_RANGE_0256  ->  +/- 256 mV
    */
-  adc.setVoltageRange_mV(ADS1115_RANGE_6144); //comment line/change parameter to change range
+  adc.setVoltageRange_mV(ADS1115_RANGE_0256); //comment line/change parameter to change range
 
   /* Set the inputs to be compared
    *  
